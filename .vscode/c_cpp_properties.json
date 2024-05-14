@@ -14,7 +14,10 @@
                 "/home/zoratt/cat_ws/src/ros_socket/include/**",
                 "/usr/include/**",
                 "/opt/ros/noetic/include",
-                "${workspaceFolder}/Socket"
+                "${workspaceFolder}/Socket",
+                "/home/zoratt/point_cloud_compression/draco/build",
+                "/home/zoratt/point_cloud_compression/draco/src"
+
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

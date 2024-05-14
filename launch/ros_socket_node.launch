@@ -2,8 +2,8 @@
   <!-- 定义节点 -->
   <node name="ros_socket_node" pkg="ros_socket" type="ros_socket_node" output="screen">
     <!-- 传入参数 -->
-    <param name="point_cloud_topic" type="str" value="/render_pts"/>
-    <param name="odometry_topic" type="str" value="/odom"/>
+    <param name="point_cloud_topic" type="str" value="/rgb_pts"/>
+    <param name="odometry_topic" type="str" value="/Odometry"/>
     <param name="port" type="str" value="12345"/>
   </node>
 </launch>
